@@ -1,0 +1,20 @@
+/* contacto.css */
+
+.custom-contact-background {
+    background-color: #f8d7da;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-contact-heading {
+    font-family: 'Cardinal', serif;
+    font-size: 3rem;
+    color: #343a40;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+    background-color: #ff69b4;
+    border: none;
+}
