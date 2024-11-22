@@ -1,0 +1,59 @@
+/* Ubicacion.css */
+
+.ubicacion-container {
+    background-color: #f8d7da;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ubicacion-title {
+    font-family: 'Cardinal', serif;
+    font-size: 3rem;
+    color: #343a40;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ubicacion-details {
+    background-color: #f8d7da;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ubicacion-subtitle {
+    color: #343a40;
+    font-family: 'Cardinal', serif;
+}
+
+.ubicacion-text {
+    font-size: 1.1rem;
+    color: #343a40;
+}
+
+.ubicacion-link {
+    color: #ff69b4;
+}
+
+.ubicacion-button {
+    background-color: #ff69b4;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+}
+
+/* CSS adicional para el mapa responsive */
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

@@ -1,0 +1,44 @@
+/* Contact.css */
+
+.contact-header {
+    background-color: #f8d7da;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-title {
+    font-family: 'Cardinal', serif;
+    font-size: 3rem;
+    color: #343a40;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-subtitle {
+    color: #6c757d;
+    font-size: 1.2rem;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.contact-button {
+    background-color: #ff69b4;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #ff1493; /* Color más oscuro al pasar el mouse */
+}

@@ -1,0 +1,45 @@
+/* Estilos generales para el contenedor FAQ */
+.faq-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.faq-title {
+    font-size: 2.5rem;
+    color: #ff1493; /* Color del título */
+    font-weight: bold;
+}
+
+.faq-subtitle {
+    font-size: 1.2rem;
+    color: #555; /* Color del subtítulo */
+}
+
+/* Estilos para la lista de preguntas frecuentes */
+.faq-list {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centrando el contenedor */
+}
+
+/* Estilos para cada ítem de la FAQ */
+.faq-item {
+    background-color: #fff0f5; /* Color de fondo para cada ítem */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 1.5rem; /* Espaciado interno */
+    margin-bottom: 1rem; /* Espaciado entre ítems */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para las preguntas */
+.faq-question {
+    font-size: 1.2rem; /* Tamaño de fuente para la pregunta */
+    color: #333; /* Color de la pregunta */
+    margin-bottom: 0.5rem; /* Espaciado inferior */
+}
+
+/* Estilos para las respuestas */
+.faq-answer {
+    font-size: 1rem; /* Tamaño de fuente para la respuesta */
+    color: #555; /* Color de la respuesta */
+    line-height: 1.5; /* Altura de línea */
+}
